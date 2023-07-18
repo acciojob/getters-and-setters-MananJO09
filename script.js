@@ -1,9 +1,10 @@
 //complete this code
 class Person {
+	constructor(name,age){
 	this.name=name;
 	this.age=age;
-
-	  get name() {
+	}
+	get name() {
     return this._name;
   }
 
